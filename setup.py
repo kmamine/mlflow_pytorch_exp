@@ -2,7 +2,7 @@ from setuptools import setup, find_packages
 
 setup(
     name='mlflow-pytorch-exp',
-    version='0.1.0',
+    version='0.0.1',
     description='Create a PyTorch project with MLflow boilerplate.',
     author='Your Name',
     packages=find_packages(),
