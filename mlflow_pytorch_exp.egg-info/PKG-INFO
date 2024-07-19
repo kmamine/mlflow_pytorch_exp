@@ -1,0 +1,6 @@
+Metadata-Version: 2.1
+Name: mlflow-pytorch-exp
+Version: 0.0.1
+Summary: Create a PyTorch project with MLflow boilerplate.
+Author: Your Name
+License-File: LICENSE
