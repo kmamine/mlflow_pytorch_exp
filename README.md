@@ -54,5 +54,5 @@ mlflow_pytorch_exp
 
 # TODO 
 
-[] Still can't create a project 
+[ ] Still can't create a project 
 
