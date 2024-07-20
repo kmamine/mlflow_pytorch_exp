@@ -59,6 +59,7 @@ setup(
     license = 'MIT',
     packages=find_packages(),
     install_requires = ["mlflow==2.14.3","pynvml==11.5.3" ],
+    include_package_data=True,
     entry_points={
         'console_scripts': ['mlflow-pytorch-exp=mlflow_pytorch_exp.mlflow_pytorch_exp:main'],
     },
