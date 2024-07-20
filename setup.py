@@ -1,6 +1,6 @@
 from setuptools import setup, find_packages
 
-
+"""
 PACKAGES = [
     "matplotlib==3.9.1",
     "mlflow==2.14.3",
@@ -45,6 +45,8 @@ PACKAGES = [
     "wrapt==1.16.0",
     "zipp==3.19.2"
 ]
+"""
+
 
 
 
@@ -56,7 +58,7 @@ setup(
     author_email='mohamed.a.kerkouri@gmail.com',
     license = 'MIT',
     packages=find_packages(),
-    install_requires = PACKAGES,
+    install_requires = ["mlflow==2.14.3","pynvml==11.5.3" ],
     entry_points={
         'console_scripts': ['mlflow-pytorch-exp=mlflow_pytorch_exp.mlflow_pytorch_exp:main'],
     },
