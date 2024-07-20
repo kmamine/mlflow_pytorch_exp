@@ -58,6 +58,6 @@ setup(
     packages=find_packages(),
     install_requires = PACKAGES,
     entry_points={
-        'console_scripts': ['mlflow-pytorch-exp=mlflow_pytorch_exp.train:main'],
+        'console_scripts': ['mlflow-pytorch-exp=mlflow_pytorch_exp.mlflow_pytorch_exp:main'],
     },
 )
