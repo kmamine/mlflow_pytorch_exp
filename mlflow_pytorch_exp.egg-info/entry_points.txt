@@ -1,2 +1,0 @@
-[console_scripts]
-mlflow-pytorch-exp = mlflow_pytorch_exp.train:main
