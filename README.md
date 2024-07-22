@@ -4,7 +4,12 @@
 
 # mlflow_pytorch_exp    
 
+# install from PyPI
+```bash
+pip install mlflow-pytorch-exp==0.0.1
+```
 
+# Insall manually 
 1. Build  the packege:
 
 ```bash
