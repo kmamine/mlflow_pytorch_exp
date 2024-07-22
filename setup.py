@@ -5,8 +5,10 @@ setup(
     name='mlflow-pytorch-exp',
     version='0.0.1',
     description='Create a PyTorch project with MLflow boilerplate.',
-    long_description = open('README.md').read_text()
-    author='Mohamed Amine KERKOURI',
+    long_description = open('README.md').read_text(),
+    long_description_content_type = "text/markdown",
+    author='M.A.K',
+    url = "https://github.com/kmamine/mlflow_pytorch_exp", 
     author_email='mohamed.a.kerkouri@gmail.com',
     license = 'MIT',
     packages=find_packages(),
