@@ -4,13 +4,13 @@
 1. Build  the packege:
 
 ```bash
-python setup.py sdist
+python setup.py sdist bdist_wheel
 ```
 
 2. Install package :
 
 ```bash
-pip install dist/mlflow-pytorch-exp-0.1.0.tar.gz
+pip install dist/mlflow_pytorch_exp-0.0.1-py3-none-any.whl
 ```
 
 3. Create project 
@@ -28,6 +28,7 @@ mlflow-pytorch-exp create my_project
 ```bash
 mlflow_pytorch_exp
 ├── LICENSE
+├── MANIFEST.in
 ├── mlflow_pytorch_exp
 │   ├── __init__.py
 │   ├── mlflow_pytorch_exp.py
@@ -52,7 +53,4 @@ mlflow_pytorch_exp
 ```
 
 
-# TODO 
-
-[ ] Still can't create a project 
 
