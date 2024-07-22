@@ -16,7 +16,7 @@ def create_project(args):
         return
 
     # Create the destination folder
-    os.makedirs(dest_path)
+    #os.makedirs(dest_path)
 
     # Copy the template files
     copy_template_files(dest_path)
