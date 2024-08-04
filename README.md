@@ -11,7 +11,7 @@ pip install mlflow-pytorch-exp==0.0.1
 
 # Create a project 
 ```bash
-mlflow-pytorch-exp create <path/to/folder>```
+mlflow-pytorch-exp create <path/to/folder>
 ```
 
 # Insall manually 
@@ -29,7 +29,7 @@ pip install dist/mlflow_pytorch_exp-0.0.1-py3-none-any.whl
 
 3. Create project 
 ```bash
-mlflow-pytorch-exp create <path/to/folder>```
+mlflow-pytorch-exp create <path/to/folder>
 ```
 
 example : 
