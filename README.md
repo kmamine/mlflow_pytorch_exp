@@ -9,6 +9,11 @@
 pip install mlflow-pytorch-exp==0.0.1
 ```
 
+# Create a project 
+```bash
+mlflow-pytorch-exp create <path/to/folder>```
+```
+
 # Insall manually 
 1. Build  the packege:
 
